@@ -5,6 +5,7 @@ AOS.init();
 let sidebar = document.getElementById("sidebar")
 let openbtn = document.getElementById("main")
 let sideLink = document.querySelectorAll('.side-link')
+const header = document.querySelector(".header")
 
 function openNav(){
     sidebar.style.width = '25rem'
@@ -127,3 +128,15 @@ prevButton.addEventListener("click", prevImage);
 
 // show initial slide
 showSlide(currentSlide);
+
+// header transparency change
+
+window.addEventListener('scroll', () => {
+    if(window.scrollY > 150){
+        header.style.backgroundColor = '#19543E'
+    }
+
+    else{
+        header.style.backgroundColor = 'transparent'
+    }
+})

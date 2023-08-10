@@ -9,7 +9,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="right">
             <h1><i class="fa-solid fa-code fa-sm" style="color: #d8d8ba;"></i> <a class="back-to-homepage" href="index.html">CORNELIUS.</a></h1>
         </div>
@@ -30,10 +30,10 @@
     <!-- retractable sidebar -->
     <div id="sidebar" class="sidebar">
         <a class="side-link closebtn" href="javascript:void(0)" onclick="closeNav()">&times;‎ ‎ </a><br><br><br>
-        <a class="side-link" href="index.html">Home</a>
-        <a class="side-link" href="about.html">About Me</a>
-        <a class="side-link" href="projects.html">Previous Projects</a>
-        <a class="side-link" href="contact.html">Let's <br>Connect!</a>
+        <a class="side-link" href="#home">Home</a>
+        <a class="side-link" href="#about">About Me</a>
+        <a class="side-link" href="#projects">Previous Projects</a>
+        <a class="side-link" href="#contact">Let's <br>Connect!</a>
     </div>
 
     <div id="main">
@@ -46,10 +46,10 @@
     <p>This is pppp</p> -->
 
     <main>
-        <section id="jumbotron">
+        <section id="jumbotron home">
             <div class="jumbotron">
                 <div class="title-container">
-                    <h1>Introducing</h1>
+                    <h1>Hi! I am</h1>
                     <h1><span class="highlight">Cornelius Rafanala.</span></h1><br><br><br>
                     <h4>A GRADE 10 STUDENT,</h4>
                     <h4>A SOFTWARE DEVELOPMENT &</h4>
@@ -60,6 +60,138 @@
                 </div>
             </div>
         </section>
+        
+        <!-- about -->
+        <div id="about" class="project-title">
+            <h1>About Me</h1>
+        </div>
+
+        <div class="about-container">
+            <div class="about-item item-left">
+                <h2 class="about-title">A Grade 10 Student</h2><br>
+                <p>My journey as a high schooler haven't even started yet. I just recently graduated from junior high school, and I'm currently enjoying myself in a peaceful summer holiday. Over the years of studying in junior high, I'm not the best in class in terms of grades. But despite that, I made quite a good impact on my teachers and classmates. I believe that I gave my class some fun and love and made the classes less plain. Later when I'm first stepping foot on senior high school, I hope I can give my class, classmates, and teachers the same positive energy, to make the environment better for everyone.</p>
+            </div>
+            <div class="about-item item-middle">
+                <h2 class="about-title">A Software Developer</h2><br>
+                <p>I am no professional software developer... yet. But I'm on it. I'm making my way through to become a good software developer in the future. I'm preparing everything I can, from education to experience, that will help me become a software developer that can make a good impact in the industry.</p>
+            </div>
+            <div class="about-item item-right">
+                <h2 class="about-title">A Video Editor</h2><br>
+                <p>I love editing videos. And my skills are recognized by my school. I was trusted to edit the whole junior high school farewell video. I'm not alone though, I have a supportive friend that is also a good video editor. From that experience, I learned that working together really puts away each other's flaws, and making the result way better than when working alone.</p>
+            </div>
+        </div>
+
+        <!-- projects -->
+        <div id="projects" class="project-title">
+            <h1>My Previous Projects</h1>
+        </div>
+        
+        <!-- image slider -->
+        <section class="section-slider" id="slider">
+            <div class="image-slider">
+
+                <!-- slide 0 -->
+                <div class="slide active">
+                    <img src="assets/picture/projects-screenshot/Screenshot (1).jpeg" alt="">
+                    <div class="slide-text">
+                        <h2>Order Summary Component</h2> <br>
+                        <p>A simple Frontend <br>Mentor challenge of <br>an order <br>summary component</p> <br>
+                        <p>See my solution <a href="https://www.frontendmentor.io/solutions/order-summary-component-using-div-and-transitions-DzrkdP0D2R">here</a></p>
+                    </div>
+                </div>
+
+                <!-- slide 1 -->
+                <div class="slide">
+                    <img src="assets/picture/projects-screenshot/Screenshot 2023-07-07 193110.png" alt="">
+                    <div class="slide-text">
+                        <h2>Interactive Rating Component</h2> <br>
+                        <p>Another Frontend Mentor <br>challenge of <br>an interactive <br>service rating component</p> <br>
+                        <p>See my solution <a href="https://www.frontendmentor.io/solutions/interactive-rating-component-solution-with-html-css-and-js-Os7bJLNYh7">here</a></p>
+                    </div>
+                </div>
+
+                <!-- slide 2 -->
+                <div class="slide">
+                    <img src="assets/picture/projects-screenshot/Screenshot 2023-07-07 193629.png" alt="">
+                    <div class="slide-text">
+                        <h2>Preview Card Component</h2> <br>
+                        <p>Another Frontend Mentor <br>challenge of a <br>product preview <br>card component</p> <br>
+                        <p>See my solution <a href="https://www.frontendmentor.io/solutions/nft-preview-card-component-UZLyo6vLaV">here</a></p>
+                    </div>
+                </div>
+
+                <!-- slide 3 -->
+                <div class="slide">
+                    <img src="assets/picture/projects-screenshot/Web capture_14-7-2023_164143_qr-code-component-solution-grendpacornel09.vercel.app.jpeg" alt="">
+                    <div class="slide-text">
+                        <h2>QR Code Component</h2> <br>
+                        <p>A Frontend Mentor <br>challenge of a <br>QR code component</p> <br>
+                        <p>See my solution <a href="https://www.frontendmentor.io/solutions/nft-preview-card-component-UZLyo6vLaV">here</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button class="prev-btn"></button>
+                <button class="next-btn"></button>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <div id="contact" class="contact-container">
+            <h1>Let's Get in Touch!</h1>
+            <form action="https://formsubmit.co/corneliusnala0907@outlook.com" method="POST" autocomplete="off">
+                <div class="form-container">
+                    <div class="input-container">
+                        <div class="icon">
+                            <i class="fa-solid fa-user" style="color: #bfbfb4;"></i>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="user-name" id="user-name" placeholder=" " class="input-item">
+                            <label for="user-name" class="form-label">Name</label>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="icon">
+                            <i class="fa-solid fa-map-location-dot" style="color: #bfbfb4;"></i>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="user-country" id="user-country" placeholder=" " class="input-item">
+                            <label for="user-country" class="form-label">Country of Origin</label>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope" style="color: #bfbfb4;"></i>
+                        </div>
+                        <div class="input">
+                            <input type="email" name="user-email" id="user-email" placeholder=" " class="input-item">
+                            <label for="user-email" class="form-label">Email</label>
+                        </div>
+                    </div>
+
+                    <div class="textarea-container">
+                        <div class="icon">
+                            <i class="fa-solid fa-paper-plane" style="color: #bfbfb4;"></i>
+                        </div>
+                        <div class="textarea">
+                            <textarea type="text" name="user-message" id="user-message" cols="89" rows="6" placeholder=" " class="textarea-item"></textarea>
+                            <label for="user-message" class="form-label">Your Message</label>
+                        </div>
+                    </div>
+                </div>
+
+                <input onclick="notifySubmitted()" type="submit" value="submit" class="submit">
+            </form>
+
+            <!-- recaptcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- don't go to formsubmit.co -->
+            <input type="hidden" name="_next" class="next">
+        </div>
     </main>
 
     <footer>
