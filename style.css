@@ -525,9 +525,10 @@ main .highlight{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 3vh;
     width: 50%;
     margin: 0 auto;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
 }
 
 .image-slider{
@@ -635,6 +636,7 @@ main .highlight{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 10vh;
 }
 
 .contact-container h1{
@@ -781,6 +783,33 @@ form{
     width: 31%;
     background-color: rgb(184, 184, 184);
     color: #19543E;
+}
+
+.back-to-top{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #247356;
+    border: none;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+.back-to-top:hover{
+    padding: 10px 20px;
+    background-color: #3b9171;
+}
+
+.back-to-top h2{
+    color: #d8612e;
+}
+
+hr.divider{
+    width: 40%;
 }
 
 

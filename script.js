@@ -112,3 +112,13 @@ window.addEventListener('scroll', () => {
         header.style.backgroundColor = 'transparent'
     }
 })
+
+const homeSection = document.getElementById('home')
+
+// back to top button
+function backToTop(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    })
+}
